@@ -1,13 +1,17 @@
-<!-- Marketing / Website Template from w3schools -->
+<!-- Marketing / Website Template from www.w3schools.com -->
 
 <!DOCTYPE html>
 <html>
+<head>
 <title>W3.CSS Template</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="resources/css/index.css">
+</head>
+
 <body id="myPage">
 
 <!-- Navbar -->
@@ -25,13 +29,12 @@
     <a href="#team" class="w3-bar-item w3-button">Team</a>
     <a href="#work" class="w3-bar-item w3-button">Work</a>
     <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
   </div>
 </div>
 
 <!-- Image Header -->
 <div class="w3-display-container w3-animate-opacity">
-  <img src="https://picsum.photos/1200/800" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
+  <img src="resources/images/beach.JPG" alt="boat" style="width:100%;min-height:350px;max-height:600px;">
 </div>
 
 <!-- Team Container -->
@@ -64,9 +67,19 @@
 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 </div>
 
-<div class="w3-half">
-  <img src="https://picsum.photos/600/400" alt="" style="width:100%">
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <img src="https://picsum.photos/600/400" style="min-height:350px;max-height:600px;">
 </div>
+
+<div class="mySlides">
+  <img src="https://picsum.photos/599/399" style="min-height:350px;max-height:600px;">
+</div>
+
+</div>
+
+<script src="resources/javascript/index.js"></script>
 
 </div>
 
@@ -119,18 +132,6 @@
     <i class="fa fa-chevron-circle-up"></i></span></a>
   </div>
 </footer>
-
-<script>
-// Used to toggle the menu on smaller screens when clicking on the menu button
-function openNav() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else {
-    x.className = x.className.replace(" w3-show", "");
-  }
-}
-</script>
 
 </body>
 </html>
